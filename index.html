@@ -1,23 +1,21 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>help</title>
+  <style type="text/css">
+    * {
+	background-color: rgb(200, 100, 200);
+	}
+	p {
+	text-align: center;
+	margin-top: 100px;
+	}
+  </style>
+  </head>
+  <body>
+    <p>
+	  i can't wait to learn how to do this properly
+	</p>
+  </body>
+</html>
